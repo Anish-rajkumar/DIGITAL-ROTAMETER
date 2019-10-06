@@ -6,7 +6,7 @@ can control it with a timer.  Create timer logic which pulses the bit every 12 s
 to the given float address.  We also want to update the flow rate every 12 seconds.  How fast is the oil 
 flowing? 
 ## IO / ASSIGNED MEMORY
-B3:0/0 ‐ Rotameter 
+B3:0/0 ‐ Rotameter, 
 F8:0 ‐ Flow (gpm)
 ### Test Criteria
 To start, run your program on Emulate.  F8:0 should be equal to 0 at first, but after a minute or so it 
